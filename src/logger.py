@@ -1,4 +1,5 @@
 import logging
+from main import LOGGER_LOCATION
 
 # create a logger
 logger = logging.getLogger("global_logger")
@@ -11,7 +12,7 @@ console_controller = logging.StreamHandler()
 console_controller.setLevel(logging.DEBUG)
 
 # save logs to file
-file_handler = logging.FileHandler('src/logfile.log')
+file_handler = logging.FileHandler(LOGGER_LOCATION)
 file_handler.setLevel(logging.DEBUG)
 
 # restrain logging format

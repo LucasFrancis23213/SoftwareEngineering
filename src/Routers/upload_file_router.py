@@ -7,9 +7,10 @@ from werkzeug.utils import secure_filename
 from FileOperate.upload_file import UPLOAD_FOLDER
 from Utilities.data_classes import Submission
 
-from main import app, session
+from main import app
 from logger import logger
 from FileOperate.upload_file import file_uploader
+from SqlOperation.session_manager import get_session
 
 app.config['UPLOAD_FOLDER'] = UPLOAD_FOLDER    
 
@@ -22,6 +23,7 @@ def upload_file():
     data = request.get_json()
     
     try:
+        
         received_submission = Submission(
             studentID = data['studentID'],
             assignmentTopic = data['assignmentTopic'],
@@ -29,9 +31,11 @@ def upload_file():
             status = data['status'],
             commitContent = data['commitConten']
         )
-        session.add(received_submission)
-        session.commit()
-        logger.info('uploaded file has been received at server side')
+        
+        with get_session() as session:
+            session.add(received_submission)
+            session.commit()
+            logger.info('uploaded file has been received at server side')
         
     except KeyError as e:
         logger.error(f'In upload_file_route, missing required field {str(e)}')

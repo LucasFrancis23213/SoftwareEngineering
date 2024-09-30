@@ -12,13 +12,13 @@ class Identity(Base):
 class Student(Base):
     __tablename__ = "student"
     
-    studentName = Column(String(100), nullable=False)
+    studentName = Column(String(100), ForeignKey("identity.userName"), nullable=False)
     studentID = Column(String(7), ForeignKey("identity.userID"), nullable=False)
     
 class Teacher(Base):
     __tablename__ = "teacher"
     
-    teacherName = Column(String(100), nullable=False)
+    teacherName = Column(String(100), ForeignKey("identity.userName"), nullable=False)
     teacherID = Column(String(7), ForeignKey("identity.userID"), nullable=False, primary_key=True)
     classID = Column(String(10), ForeignKey("course.courseID"))
     teacherType = Column(Enum("Normal", "Admin", "TeachingAssistance"), nullable=False)

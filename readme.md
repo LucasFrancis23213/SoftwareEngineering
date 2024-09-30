@@ -1,0 +1,13 @@
+# 仓库结构
+- ```src```:代码文件夹  
+- ```create_table.sql```:数据库的建表语句  
+- ```RequirementAnalysis.md```：项目需求分析文档  
+## src代码仓库结构  
+- ```src/FileOperate```：处理文件上传的代码文件夹  
+- ```src/Routers```：存放前后端交互的api文件夹  
+- ```src/SqlOperation```：存放数据库操作的文件夹  
+    - ```db_config.py```：数据库连接的配置文件  
+    - ```connect_to_db.py```：连接到指定数据库的代码  
+- ```src/Utilities```：存储公用数据类等  
+- ```src/logger.py```：创建全局log的代码  
+- ```src/main.py```：代码入口文件  

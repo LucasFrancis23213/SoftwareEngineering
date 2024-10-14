@@ -1,86 +1,115 @@
 from Utilities.data_classes import Student, Identity
-from sqlalchemy import and_
+from sqlalchemy import and_,Result
+from sqlalchemy.exc import SQLAlchemyError
 
 from session_manager import get_session
 from logger import logger
 
 # this file shows the sample of basic crud operation 
 # please notice that these samples DID NOT CONTAIN CONNECT TO DATABASE OPERATION!!!
-class crud_sample:
-    def __init__(self) -> None:
-        with get_session() as session:
-            self.session = session
-        
-    def insert_operation(self):
+class CrudSample:
+    async def insert_operation(self, student_name: str, student_id: str):
         """
-        insert operation sample
-        """
-        try:
-            new_student = Student(studentName="John Doe", studentID="1234567")
-            self.session.add(new_student)
-            logger.info('insert operation succeed')
-        except:
-            logger.warning(f'insert student {new_student.studentName} {new_student.studentID} failed')
-    
-    def delete_operation(self, studentID):
-        """
-        delete operation sample
+        插入操作样例
         Args:
-            studentID (str): student id
+            student_name (str): 学生姓名
+            student_id (str): 学生ID
         """
         try:
-            student = self.session.query(Student).filter_by(studentID=studentID).first()
-            if student:
-                self.session.delete(student)
-                logger.info(f'found and deleted student {student.studentName} {student.studentID}')
-            else:
-                logger.info(f'did not find student match restriction: studentID = {studentID}')
+            async with get_session() as session:  # 自动管理session
+                new_student = Student(studentName=student_name, studentID=student_id)
+                session.add(new_student)
+                logger.info(f'插入成功: {student_name} ({student_id})')
+        except SQLAlchemyError as e:
+            logger.error(f'插入失败: {student_name} ({student_id}), 错误: {e}')
         except Exception as e:
-            self.session.rollback()
-            logger.warning(f'delete operation failed, error is {e}')
-        
-    def update_operation(self, studentID, new_name):
+            logger.error(f'发生未预料到的错误: {e}')
+
+    async def delete_operation(self, student_id: str):
         """
-        update operation sample
+        删除操作样例
         Args:
-            studentID (str): 
-            new_name (str): 
+            student_id (str): 学生ID
         """
         try:
-            student = self.session.query(Student).filter_by(studentID=studentID).first()
-            if student:
-                student.studentName = new_name
-                logger.info(f'Student {studentID} updated to new name {new_name}')
-            else:
-                logger.info(f'No student found with ID {studentID}')
+            async with get_session() as session:  # 自动管理session
+                result:Result = await session.execute(
+                    session.query(Student).filter_by(studentID=student_id)
+                )
+                student = result.scalars().first()
+                if student:
+                    await session.delete(student)
+                    logger.info(f'删除成功: {student.studentName} ({student.studentID})')
+                else:
+                    logger.info(f'未找到匹配的学生ID: {student_id}')
+        except SQLAlchemyError as e:
+            logger.error(f'删除操作失败, 错误: {e}')
         except Exception as e:
-            self.session.rollback()
-            logger.warning(f'Update operation failed: {e}')
-            
-    def query_operation(self, studentID) -> Student:
+            logger.error(f'发生未预料到的错误: {e}')
+
+    async def update_operation(self, student_id: str, new_name: str):
         """
-        query operation sample
+        更新操作样例
         Args:
-            studentID (str): 
+            student_id (str): 学生ID
+            new_name (str): 新名字
+        """
+        try:
+            async with get_session() as session:  # 自动管理session
+                result:Result = await session.execute(
+                    session.query(Student).filter_by(studentID=student_id)
+                )
+                student = result.scalars().first()
+                if student:
+                    student.studentName = new_name
+                    logger.info(f'更新成功: {student_id} 更新为新名字 {new_name}')
+                else:
+                    logger.info(f'未找到学生ID: {student_id}')
+        except SQLAlchemyError as e:
+            logger.error(f'更新操作失败, 错误: {e}')
+        except Exception as e:
+            logger.error(f'发生未预料到的错误: {e}')
+
+    async def query_operation(self, student_id: str) -> Student:
+        """
+        查询操作样例
+        Args:
+            student_id (str): 学生ID
         Returns:
-            Student: 
+            Student: 查询到的学生对象或 None
         """
-        student = self.session.query(Student).filter(
-            and_(
-                Student.studentID == '1234567',
-                Student.studentName == 'John'
-            )).first()
-        if student:
-            logger.info(f'Student found: {student.studentName}, ID: {student.studentID}')
-            return student
-        else:
-            logger.info(f'No student found with ID {studentID}')
+        try:
+            async with get_session() as session:  # 自动管理session
+                result:Result = await session.execute(
+                    session.query(Student).filter_by(studentID=student_id)
+                )
+                student:Student = result.scalars().first()
+                if student:
+                    logger.info(f'找到学生: {student.studentName}, ID: {student.studentID}')
+                    return student
+                else:
+                    logger.info(f'未找到学生ID: {student_id}')
+                    return None
+        except SQLAlchemyError as e:
+            logger.error(f'查询操作失败, 错误: {e}')
             return None
-    def join_operation(self):
+        except Exception as e:
+            logger.error(f'发生未预料到的错误: {e}')
+            return None
+
+    async def join_operation(self):
         """
-        join opertaion sample
+        联表查询操作样例
         """
-        results = self.session.query(Identity, Student).join(Student, Identity.userName == Student.studentName).all()
-        
-        for identity, student in results:
-            print(f"Identity userName: {identity.userName}, Student studentName: {student.studentName}, StudentID: {student.studentID}")
+        try:
+            async with get_session() as session:  # 自动管理session
+                result:Result = await session.execute(
+                    session.query(Identity, Student).join(Student, Identity.userName == Student.studentName)
+                )
+                results = result.scalars().all()
+                for identity, student in results:
+                    logger.info(f'Identity 用户名: {identity.userName}, Student 名字: {student.studentName}, StudentID: {student.studentID}')
+        except SQLAlchemyError as e:
+            logger.error(f'联表查询操作失败, 错误: {e}')
+        except Exception as e:
+            logger.error(f'发生未预料到的错误: {e}')

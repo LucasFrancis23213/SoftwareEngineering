@@ -1,6 +1,7 @@
 from sqlalchemy import  Column, Integer, String, Text, DateTime, Enum, ForeignKey
 from main import Base
 
+
 class Identity(Base): 
     __tablename__ = "identity"
     
@@ -8,12 +9,15 @@ class Identity(Base):
     userName = Column(String(100))
     userID = Column(String(7))
     IsTeacher = Column(Integer, default = 0)
+    email = Column(String) # 没加到database
+    status = Column(Enum('activated', 'deactivated'), default='deactivated')
 
 class Student(Base):
     __tablename__ = "student"
     
     studentName = Column(String(100), ForeignKey("identity.userName"), nullable=False)
     studentID = Column(String(7), ForeignKey("identity.userID"), nullable=False)
+    email = Column(String, ForeignKey("identity.email"), nullable = False) # 没加到database
     
 class Teacher(Base):
     __tablename__ = "teacher"
@@ -21,7 +25,8 @@ class Teacher(Base):
     teacherName = Column(String(100), ForeignKey("identity.userName"), nullable=False)
     teacherID = Column(String(7), ForeignKey("identity.userID"), nullable=False, primary_key=True)
     classID = Column(String(10), ForeignKey("course.courseID"))
-    teacherType = Column(Enum("Normal", "Admin", "TeachingAssistance"), nullable=False)
+    teacherType = Column(Enum("Normal", "Admin", "TeachingAssistance", "SystemManager"), nullable=False)
+    email = Column(String, ForeignKey("identity.email"), nullable = False) # 没加到database
 
 class Course(Base):
     __tablename__ = 'course'
@@ -33,9 +38,10 @@ class Course(Base):
 class Login(Base):
     __tablename__ = 'login'
     
-    userName = Column(String(100), ForeignKey('identity.userName'), nullable=False)
+    userName = Column(String(100), ForeignKey('identity.userName'))
     userID = Column(String(7), ForeignKey('identity.userID'), primary_key=True, nullable=False)
-    userEmail = Column(String(100), nullable=False)
+    # userEmail = Column(String(100), nullable=False) 应该删除
+    password = Column(String, nullable=False)
 
 class Assignment(Base):
     __tablename__ = 'assignment'

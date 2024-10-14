@@ -2,6 +2,7 @@ import os
 import sys
 # add parent directory to path
 sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+
 from flask import request, jsonify
 from werkzeug.utils import secure_filename
 from FileOperate.upload_file import UPLOAD_FOLDER
@@ -29,7 +30,7 @@ def upload_file():
             assignmentTopic = data['assignmentTopic'],
             commitTime = data['commitTime'],
             status = data['status'],
-            commitContent = data['commitConten']
+            commitContent = data['commitContent']
         )
         
         with get_session() as session:

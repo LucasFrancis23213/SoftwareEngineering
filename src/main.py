@@ -1,5 +1,4 @@
 from flask import Flask, request, jsonify
-from logger import logger
 from sqlalchemy.ext.declarative import declarative_base
 from SqlOperation.db_config import config
 

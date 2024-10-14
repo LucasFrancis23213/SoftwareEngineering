@@ -1,39 +1,46 @@
 from sqlalchemy import create_engine
-from sqlalchemy.ext.declarative import declarative_base
+from sqlalchemy.ext.asyncio import create_async_engine, AsyncSession
 from sqlalchemy.orm import sessionmaker
-from SqlOperation.db_config import config
-from contextlib import contextmanager
+from contextlib import contextmanager, asynccontextmanager
 
 from logger import logger
 from Utilities.data_classes import Student
 from main import Database_URL
 
+# 创建异步引擎
+engine = create_async_engine(url=Database_URL, echo=True, future=True)
 
-engine = create_engine(url=Database_URL)
-Session = sessionmaker(bind=engine)
+# 创建一个异步的 session 工厂
+AsyncSessionFactory = sessionmaker(
+    bind=engine,
+    class_=AsyncSession,
+    expire_on_commit=False
+)
 
-@contextmanager
-def get_session():
-    session = Session()
+
+# engine = create_engine(url=Database_URL)
+# Session = sessionmaker(bind=engine)
+
+@asynccontextmanager
+async def get_session():
+    session = AsyncSessionFactory()
     try:
-        # yield 关键字在这里将会话对象传递给 with 语句中的代码块。
-        # 此时，用户可以在 with 语句中使用这个会话对象执行数据库操作
-        yield session
-        session.commit()
-        logger.info('successfully create session')
+        yield session  # 将 session 传递给 with 语句
+        await session.commit()  # 异步提交事务
+        logger.info('Async session commit succeeded')
     except Exception as e:
-        session.rollback()
-        logger.error(f'create session failed, error is {e}, rolling back now')
+        await session.rollback()  # 异步回滚事务
+        logger.error(f'Async session commit failed, rolling back. Error: {e}')
         raise
     finally:
-        session.close()
-        logger.info('sessio has been closed')
+        await session.close()  # 异步关闭 session
+        logger.info('Async session has been closed')
 
-def sample():
+async def sample():
     """
     sample of using function get_session()
     """
-    with get_session() as session:
+    async with get_session() as session:
         new_student = Student(studentName="John Doe", studentID="1234567")
         session.add(new_student)
         students = session.query(Student).all()

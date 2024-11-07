@@ -1,0 +1,485 @@
+2024-11-05 15:25:03,870 - global_logger - INFO - activate upload file router
+2024-11-05 15:25:03,949 - global_logger - INFO - uploaded file has been received at server side
+2024-11-05 15:25:03,949 - global_logger - INFO - Async session commit succeeded
+2024-11-05 15:25:03,949 - global_logger - INFO - Async session has been closed
+2024-11-05 15:25:03,983 - global_logger - INFO - 2251653_李彤.pdf has been save to src/test\2251653\2251653_.pdf
+2024-11-05 15:25:03,983 - global_logger - INFO - File(s) uploaded successfully.
+2024-11-05 15:25:39,644 - global_logger - INFO - activate upload file router
+2024-11-05 15:25:40,008 - global_logger - ERROR - Async session commit failed, rolling back. Error: 'NoneType' object has no attribute 'send'
+2024-11-05 15:25:40,008 - global_logger - INFO - Async session has been closed
+2024-11-05 15:25:40,008 - global_logger - ERROR - In upload_file_route, Failed to save submission 'NoneType' object has no attribute 'send'
+2024-11-05 15:25:49,760 - global_logger - INFO - activate upload file router
+2024-11-05 15:25:49,775 - global_logger - INFO - uploaded file has been received at server side
+2024-11-05 15:25:49,775 - global_logger - INFO - Async session commit succeeded
+2024-11-05 15:25:49,776 - global_logger - INFO - Async session has been closed
+2024-11-05 15:25:49,781 - global_logger - ERROR - in upload_file, error : [Errno 13] Permission denied: 'src/test\\2251653\\2251653_.pdf'
+2024-11-05 15:25:49,781 - global_logger - INFO - File(s) uploaded successfully.
+2024-11-05 15:26:25,006 - global_logger - INFO - activate upload file router
+2024-11-05 15:26:25,032 - global_logger - ERROR - Async session commit failed, rolling back. Error: 'NoneType' object has no attribute 'send'
+2024-11-05 15:26:25,032 - global_logger - INFO - Async session has been closed
+2024-11-05 15:26:25,032 - global_logger - ERROR - In upload_file_route, Failed to save submission 'NoneType' object has no attribute 'send'
+2024-11-05 15:28:50,880 - global_logger - INFO - activate upload file router
+2024-11-05 15:28:50,890 - global_logger - INFO - uploaded file has been received at server side
+2024-11-05 15:28:50,890 - global_logger - INFO - Async session commit succeeded
+2024-11-05 15:28:50,890 - global_logger - INFO - Async session has been closed
+2024-11-05 15:28:50,891 - global_logger - INFO - AR在HCI领域中的发展调研报告.docx has been save to src/test\2251653\ARHCI.docx
+2024-11-05 15:28:50,920 - global_logger - INFO - File(s) uploaded successfully.
+2024-11-05 15:31:49,815 - global_logger - INFO - activate upload file router
+2024-11-05 15:31:49,830 - global_logger - ERROR - Async session commit failed, rolling back. Error: 'NoneType' object has no attribute 'send'
+2024-11-05 15:31:49,830 - global_logger - INFO - Async session has been closed
+2024-11-05 15:31:49,830 - global_logger - ERROR - In upload_file_route, Failed to save submission 'NoneType' object has no attribute 'send'
+2024-11-05 15:32:09,847 - global_logger - INFO - activate upload file router
+2024-11-05 15:32:09,860 - global_logger - INFO - uploaded file has been received at server side
+2024-11-05 15:32:09,861 - global_logger - INFO - Async session commit succeeded
+2024-11-05 15:32:09,861 - global_logger - INFO - Async session has been closed
+2024-11-05 15:32:09,863 - global_logger - INFO - 2251653.李彤.pdf has been save to src/test\2251653\2251653..pdf
+2024-11-05 15:32:09,863 - global_logger - INFO - File(s) uploaded successfully.
+2024-11-05 15:43:18,018 - global_logger - INFO - activate upload file router
+2024-11-05 15:43:18,040 - global_logger - INFO - uploaded file has been received at server side
+2024-11-05 15:43:18,040 - global_logger - INFO - Async session commit succeeded
+2024-11-05 15:43:18,040 - global_logger - INFO - Async session has been closed
+2024-11-05 15:43:18,044 - global_logger - INFO - 2251653-李彤.pdf has been save to src/test\2251653\2251653-.pdf
+2024-11-05 15:43:18,044 - global_logger - INFO - File(s) uploaded successfully.
+2024-11-05 15:43:34,641 - global_logger - INFO - activate upload file router
+2024-11-05 15:43:34,662 - global_logger - ERROR - Async session commit failed, rolling back. Error: 'NoneType' object has no attribute 'send'
+2024-11-05 15:43:34,662 - global_logger - INFO - Async session has been closed
+2024-11-05 15:43:34,662 - global_logger - ERROR - In upload_file_route, Failed to save submission 'NoneType' object has no attribute 'send'
+2024-11-05 15:43:35,966 - global_logger - INFO - activate upload file router
+2024-11-05 15:43:35,988 - global_logger - INFO - uploaded file has been received at server side
+2024-11-05 15:43:35,989 - global_logger - INFO - Async session commit succeeded
+2024-11-05 15:43:35,989 - global_logger - INFO - Async session has been closed
+2024-11-05 15:43:35,992 - global_logger - INFO - 51b625aa9113951795eb209eb391513.jpg has been save to src/test\2251653\51b625aa9113951795eb209eb391513.jpg
+2024-11-05 15:43:35,992 - global_logger - INFO - File(s) uploaded successfully.
+2024-11-05 15:43:36,658 - global_logger - INFO - activate upload file router
+2024-11-05 15:43:36,677 - global_logger - ERROR - Async session commit failed, rolling back. Error: 'NoneType' object has no attribute 'send'
+2024-11-05 15:43:36,677 - global_logger - INFO - Async session has been closed
+2024-11-05 15:43:36,677 - global_logger - ERROR - In upload_file_route, Failed to save submission 'NoneType' object has no attribute 'send'
+2024-11-05 15:43:37,232 - global_logger - INFO - activate upload file router
+2024-11-05 15:43:37,251 - global_logger - INFO - uploaded file has been received at server side
+2024-11-05 15:43:37,251 - global_logger - INFO - Async session commit succeeded
+2024-11-05 15:43:37,251 - global_logger - INFO - Async session has been closed
+2024-11-05 15:43:37,269 - global_logger - INFO - 51b625aa9113951795eb209eb391513.jpg has been save to src/test\2251653\51b625aa9113951795eb209eb391513.jpg
+2024-11-05 15:43:37,269 - global_logger - INFO - File(s) uploaded successfully.
+2024-11-05 15:43:37,623 - global_logger - INFO - activate upload file router
+2024-11-05 15:43:37,643 - global_logger - ERROR - Async session commit failed, rolling back. Error: 'NoneType' object has no attribute 'send'
+2024-11-05 15:43:37,643 - global_logger - INFO - Async session has been closed
+2024-11-05 15:43:37,643 - global_logger - ERROR - In upload_file_route, Failed to save submission 'NoneType' object has no attribute 'send'
+2024-11-05 15:43:37,976 - global_logger - INFO - activate upload file router
+2024-11-05 15:43:37,994 - global_logger - INFO - uploaded file has been received at server side
+2024-11-05 15:43:37,994 - global_logger - INFO - Async session commit succeeded
+2024-11-05 15:43:37,994 - global_logger - INFO - Async session has been closed
+2024-11-05 15:43:37,997 - global_logger - INFO - 51b625aa9113951795eb209eb391513.jpg has been save to src/test\2251653\51b625aa9113951795eb209eb391513.jpg
+2024-11-05 15:43:37,997 - global_logger - INFO - File(s) uploaded successfully.
+2024-11-05 15:43:38,320 - global_logger - INFO - activate upload file router
+2024-11-05 15:43:38,338 - global_logger - ERROR - Async session commit failed, rolling back. Error: 'NoneType' object has no attribute 'send'
+2024-11-05 15:43:38,338 - global_logger - INFO - Async session has been closed
+2024-11-05 15:43:38,338 - global_logger - ERROR - In upload_file_route, Failed to save submission 'NoneType' object has no attribute 'send'
+2024-11-05 15:43:38,629 - global_logger - INFO - activate upload file router
+2024-11-05 15:43:38,639 - global_logger - INFO - uploaded file has been received at server side
+2024-11-05 15:43:38,639 - global_logger - INFO - Async session commit succeeded
+2024-11-05 15:43:38,639 - global_logger - INFO - Async session has been closed
+2024-11-05 15:43:38,658 - global_logger - INFO - 51b625aa9113951795eb209eb391513.jpg has been save to src/test\2251653\51b625aa9113951795eb209eb391513.jpg
+2024-11-05 15:43:38,658 - global_logger - INFO - File(s) uploaded successfully.
+2024-11-05 15:43:38,905 - global_logger - INFO - activate upload file router
+2024-11-05 15:43:38,919 - global_logger - ERROR - Async session commit failed, rolling back. Error: 'NoneType' object has no attribute 'send'
+2024-11-05 15:43:38,919 - global_logger - INFO - Async session has been closed
+2024-11-05 15:43:38,919 - global_logger - ERROR - In upload_file_route, Failed to save submission 'NoneType' object has no attribute 'send'
+2024-11-05 15:43:39,218 - global_logger - INFO - activate upload file router
+2024-11-05 15:43:39,235 - global_logger - INFO - uploaded file has been received at server side
+2024-11-05 15:43:39,235 - global_logger - INFO - Async session commit succeeded
+2024-11-05 15:43:39,235 - global_logger - INFO - Async session has been closed
+2024-11-05 15:43:39,238 - global_logger - INFO - 51b625aa9113951795eb209eb391513.jpg has been save to src/test\2251653\51b625aa9113951795eb209eb391513.jpg
+2024-11-05 15:43:39,238 - global_logger - INFO - File(s) uploaded successfully.
+2024-11-05 15:43:39,509 - global_logger - INFO - activate upload file router
+2024-11-05 15:43:39,527 - global_logger - ERROR - Async session commit failed, rolling back. Error: 'NoneType' object has no attribute 'send'
+2024-11-05 15:43:39,527 - global_logger - INFO - Async session has been closed
+2024-11-05 15:43:39,527 - global_logger - ERROR - In upload_file_route, Failed to save submission 'NoneType' object has no attribute 'send'
+2024-11-05 15:43:39,809 - global_logger - INFO - activate upload file router
+2024-11-05 15:43:39,824 - global_logger - INFO - uploaded file has been received at server side
+2024-11-05 15:43:39,824 - global_logger - INFO - Async session commit succeeded
+2024-11-05 15:43:39,825 - global_logger - INFO - Async session has been closed
+2024-11-05 15:43:39,848 - global_logger - INFO - 51b625aa9113951795eb209eb391513.jpg has been save to src/test\2251653\51b625aa9113951795eb209eb391513.jpg
+2024-11-05 15:43:39,848 - global_logger - INFO - File(s) uploaded successfully.
+2024-11-05 15:43:40,060 - global_logger - INFO - activate upload file router
+2024-11-05 15:43:40,075 - global_logger - ERROR - Async session commit failed, rolling back. Error: 'NoneType' object has no attribute 'send'
+2024-11-05 15:43:40,075 - global_logger - INFO - Async session has been closed
+2024-11-05 15:43:40,075 - global_logger - ERROR - In upload_file_route, Failed to save submission 'NoneType' object has no attribute 'send'
+2024-11-05 15:43:40,368 - global_logger - INFO - activate upload file router
+2024-11-05 15:43:40,386 - global_logger - INFO - uploaded file has been received at server side
+2024-11-05 15:43:40,387 - global_logger - INFO - Async session commit succeeded
+2024-11-05 15:43:40,387 - global_logger - INFO - Async session has been closed
+2024-11-05 15:43:40,389 - global_logger - INFO - 51b625aa9113951795eb209eb391513.jpg has been save to src/test\2251653\51b625aa9113951795eb209eb391513.jpg
+2024-11-05 15:43:40,389 - global_logger - INFO - File(s) uploaded successfully.
+2024-11-05 15:43:40,652 - global_logger - INFO - activate upload file router
+2024-11-05 15:43:40,668 - global_logger - ERROR - Async session commit failed, rolling back. Error: 'NoneType' object has no attribute 'send'
+2024-11-05 15:43:40,668 - global_logger - INFO - Async session has been closed
+2024-11-05 15:43:40,668 - global_logger - ERROR - In upload_file_route, Failed to save submission 'NoneType' object has no attribute 'send'
+2024-11-05 15:43:40,917 - global_logger - INFO - activate upload file router
+2024-11-05 15:43:40,936 - global_logger - INFO - uploaded file has been received at server side
+2024-11-05 15:43:40,936 - global_logger - INFO - Async session commit succeeded
+2024-11-05 15:43:40,936 - global_logger - INFO - Async session has been closed
+2024-11-05 15:43:40,938 - global_logger - INFO - 51b625aa9113951795eb209eb391513.jpg has been save to src/test\2251653\51b625aa9113951795eb209eb391513.jpg
+2024-11-05 15:43:40,938 - global_logger - INFO - File(s) uploaded successfully.
+2024-11-05 15:43:43,538 - global_logger - INFO - activate upload file router
+2024-11-05 15:43:43,557 - global_logger - ERROR - Async session commit failed, rolling back. Error: 'NoneType' object has no attribute 'send'
+2024-11-05 15:43:43,557 - global_logger - INFO - Async session has been closed
+2024-11-05 15:43:43,557 - global_logger - ERROR - In upload_file_route, Failed to save submission 'NoneType' object has no attribute 'send'
+2024-11-05 15:45:02,417 - global_logger - INFO - activate upload file router
+2024-11-05 15:45:02,433 - global_logger - INFO - uploaded file has been received at server side
+2024-11-05 15:45:02,433 - global_logger - INFO - Async session commit succeeded
+2024-11-05 15:45:02,433 - global_logger - INFO - Async session has been closed
+2024-11-05 15:45:02,436 - global_logger - INFO - 4ffa221e3abd5c265f65a07ffac6b66.jpg has been save to src/test\2251653\4ffa221e3abd5c265f65a07ffac6b66.jpg
+2024-11-05 15:45:02,436 - global_logger - INFO - File(s) uploaded successfully.
+2024-11-05 15:45:04,185 - global_logger - INFO - activate upload file router
+2024-11-05 15:45:04,207 - global_logger - ERROR - Async session commit failed, rolling back. Error: 'NoneType' object has no attribute 'send'
+2024-11-05 15:45:04,207 - global_logger - INFO - Async session has been closed
+2024-11-05 15:45:04,207 - global_logger - ERROR - In upload_file_route, Failed to save submission 'NoneType' object has no attribute 'send'
+2024-11-05 15:45:36,555 - global_logger - INFO - activate upload file router
+2024-11-05 15:45:36,575 - global_logger - INFO - uploaded file has been received at server side
+2024-11-05 15:45:36,575 - global_logger - INFO - Async session commit succeeded
+2024-11-05 15:45:36,575 - global_logger - INFO - Async session has been closed
+2024-11-05 15:45:36,579 - global_logger - INFO - 4ffa221e3abd5c265f65a07ffac6b66.jpg has been save to src/test\2251653\4ffa221e3abd5c265f65a07ffac6b66.jpg
+2024-11-05 15:45:36,579 - global_logger - INFO - File(s) uploaded successfully.
+2024-11-05 15:45:49,449 - global_logger - INFO - activate upload file router
+2024-11-05 15:45:49,468 - global_logger - ERROR - Async session commit failed, rolling back. Error: 'NoneType' object has no attribute 'send'
+2024-11-05 15:45:49,468 - global_logger - INFO - Async session has been closed
+2024-11-05 15:45:49,468 - global_logger - ERROR - In upload_file_route, Failed to save submission 'NoneType' object has no attribute 'send'
+2024-11-05 15:45:51,428 - global_logger - INFO - activate upload file router
+2024-11-05 15:45:51,437 - global_logger - INFO - uploaded file has been received at server side
+2024-11-05 15:45:51,437 - global_logger - INFO - Async session commit succeeded
+2024-11-05 15:45:51,437 - global_logger - INFO - Async session has been closed
+2024-11-05 15:45:51,452 - global_logger - INFO - 4ffa221e3abd5c265f65a07ffac6b66.jpg has been save to src/test\2251653\4ffa221e3abd5c265f65a07ffac6b66.jpg
+2024-11-05 15:45:51,452 - global_logger - INFO - File(s) uploaded successfully.
+2024-11-05 15:45:53,213 - global_logger - INFO - activate upload file router
+2024-11-05 15:45:53,229 - global_logger - ERROR - Async session commit failed, rolling back. Error: 'NoneType' object has no attribute 'send'
+2024-11-05 15:45:53,229 - global_logger - INFO - Async session has been closed
+2024-11-05 15:45:53,229 - global_logger - ERROR - In upload_file_route, Failed to save submission 'NoneType' object has no attribute 'send'
+2024-11-05 15:45:53,921 - global_logger - INFO - activate upload file router
+2024-11-05 15:45:53,941 - global_logger - INFO - uploaded file has been received at server side
+2024-11-05 15:45:53,941 - global_logger - INFO - Async session commit succeeded
+2024-11-05 15:45:53,941 - global_logger - INFO - Async session has been closed
+2024-11-05 15:45:53,945 - global_logger - INFO - 4ffa221e3abd5c265f65a07ffac6b66.jpg has been save to src/test\2251653\4ffa221e3abd5c265f65a07ffac6b66.jpg
+2024-11-05 15:45:53,945 - global_logger - INFO - File(s) uploaded successfully.
+2024-11-05 15:45:54,694 - global_logger - INFO - activate upload file router
+2024-11-05 15:45:54,729 - global_logger - ERROR - Async session commit failed, rolling back. Error: 'NoneType' object has no attribute 'send'
+2024-11-05 15:45:54,729 - global_logger - INFO - Async session has been closed
+2024-11-05 15:45:54,729 - global_logger - ERROR - In upload_file_route, Failed to save submission 'NoneType' object has no attribute 'send'
+2024-11-05 15:45:55,221 - global_logger - INFO - activate upload file router
+2024-11-05 15:45:55,236 - global_logger - INFO - uploaded file has been received at server side
+2024-11-05 15:45:55,237 - global_logger - INFO - Async session commit succeeded
+2024-11-05 15:45:55,237 - global_logger - INFO - Async session has been closed
+2024-11-05 15:45:55,241 - global_logger - INFO - 4ffa221e3abd5c265f65a07ffac6b66.jpg has been save to src/test\2251653\4ffa221e3abd5c265f65a07ffac6b66.jpg
+2024-11-05 15:45:55,241 - global_logger - INFO - File(s) uploaded successfully.
+2024-11-05 15:46:17,238 - global_logger - INFO - activate upload file router
+2024-11-05 15:46:17,256 - global_logger - ERROR - Async session commit failed, rolling back. Error: 'NoneType' object has no attribute 'send'
+2024-11-05 15:46:17,256 - global_logger - INFO - Async session has been closed
+2024-11-05 15:46:17,256 - global_logger - ERROR - In upload_file_route, Failed to save submission 'NoneType' object has no attribute 'send'
+2024-11-05 15:46:43,701 - global_logger - INFO - activate upload file router
+2024-11-05 15:46:43,721 - global_logger - INFO - uploaded file has been received at server side
+2024-11-05 15:46:43,721 - global_logger - INFO - Async session commit succeeded
+2024-11-05 15:46:43,721 - global_logger - INFO - Async session has been closed
+2024-11-05 15:46:43,740 - global_logger - INFO - 4ffa221e3abd5c265f65a07ffac6b66.jpg has been save to src/test\2251653\4ffa221e3abd5c265f65a07ffac6b66.jpg
+2024-11-05 15:46:43,740 - global_logger - INFO - File(s) uploaded successfully.
+2024-11-05 15:47:28,999 - global_logger - INFO - activate upload file router
+2024-11-05 15:47:29,016 - global_logger - ERROR - Async session commit failed, rolling back. Error: 'NoneType' object has no attribute 'send'
+2024-11-05 15:47:29,016 - global_logger - INFO - Async session has been closed
+2024-11-05 15:47:29,016 - global_logger - ERROR - In upload_file_route, Failed to save submission 'NoneType' object has no attribute 'send'
+2024-11-05 15:55:18,374 - global_logger - INFO - activate upload file router
+2024-11-05 15:55:18,400 - global_logger - ERROR - In upload_file_route, Failed to save submission object AsyncSession can't be used in 'await' expression
+2024-11-05 16:04:07,632 - global_logger - INFO - activate upload file router
+2024-11-05 16:04:07,654 - global_logger - INFO - uploaded file has been received at server side
+2024-11-05 16:04:07,654 - global_logger - INFO - Async session commit succeeded
+2024-11-05 16:04:07,654 - global_logger - INFO - Async session has been closed
+2024-11-05 16:04:07,661 - global_logger - INFO - 2251653-李彤.pdf has been save to src/test\2251653\2251653-.pdf
+2024-11-05 16:04:07,661 - global_logger - INFO - File(s) uploaded successfully.
+2024-11-05 16:04:08,604 - global_logger - INFO - activate upload file router
+2024-11-05 16:04:08,628 - global_logger - ERROR - Async session commit failed, rolling back. Error: 'NoneType' object has no attribute 'send'
+2024-11-05 16:04:08,628 - global_logger - INFO - Async session has been closed
+2024-11-05 16:04:08,628 - global_logger - ERROR - In upload_file_route, Failed to save submission 'NoneType' object has no attribute 'send'
+2024-11-05 16:04:09,321 - global_logger - INFO - activate upload file router
+2024-11-05 16:04:09,343 - global_logger - INFO - uploaded file has been received at server side
+2024-11-05 16:04:09,343 - global_logger - INFO - Async session commit succeeded
+2024-11-05 16:04:09,343 - global_logger - INFO - Async session has been closed
+2024-11-05 16:04:09,366 - global_logger - INFO - 2251653-李彤.pdf has been save to src/test\2251653\2251653-.pdf
+2024-11-05 16:04:09,366 - global_logger - INFO - File(s) uploaded successfully.
+2024-11-05 16:04:09,857 - global_logger - INFO - activate upload file router
+2024-11-05 16:04:09,877 - global_logger - ERROR - Async session commit failed, rolling back. Error: 'NoneType' object has no attribute 'send'
+2024-11-05 16:04:09,877 - global_logger - INFO - Async session has been closed
+2024-11-05 16:04:09,877 - global_logger - ERROR - In upload_file_route, Failed to save submission 'NoneType' object has no attribute 'send'
+2024-11-05 16:05:59,542 - global_logger - INFO - activate upload file router
+2024-11-05 16:05:59,561 - global_logger - INFO - uploaded file has been received at server side
+2024-11-05 16:05:59,561 - global_logger - INFO - Async session commit succeeded
+2024-11-05 16:05:59,561 - global_logger - INFO - Async session has been closed
+2024-11-05 16:05:59,563 - global_logger - INFO - 2251653-李彤.pdf has been save to src/test\2251653\2251653-.pdf
+2024-11-05 16:05:59,563 - global_logger - INFO - File(s) uploaded successfully.
+2024-11-05 16:06:00,531 - global_logger - INFO - activate upload file router
+2024-11-05 16:06:00,555 - global_logger - ERROR - Async session commit failed, rolling back. Error: 'NoneType' object has no attribute 'send'
+2024-11-05 16:06:00,555 - global_logger - INFO - Async session has been closed
+2024-11-05 16:06:00,555 - global_logger - ERROR - In upload_file_route, Failed to save submission 'NoneType' object has no attribute 'send'
+2024-11-05 16:14:47,886 - global_logger - INFO - activate upload file router
+2024-11-05 16:14:47,892 - global_logger - ERROR - In upload_file_route, Failed to save submission object _AsyncGeneratorContextManager can't be used in 'await' expression
+2024-11-05 16:22:18,952 - global_logger - INFO - activate upload file router
+2024-11-05 16:22:18,975 - global_logger - INFO - uploaded file has been received at server side
+2024-11-05 16:22:18,975 - global_logger - INFO - Async session commit succeeded
+2024-11-05 16:22:18,976 - global_logger - INFO - Async session has been closed
+2024-11-05 16:22:18,985 - global_logger - INFO - 4ffa221e3abd5c265f65a07ffac6b66.jpg has been save to src/test\2251653\4ffa221e3abd5c265f65a07ffac6b66.jpg
+2024-11-05 16:22:18,985 - global_logger - INFO - File(s) uploaded successfully.
+2024-11-05 16:22:19,443 - global_logger - INFO - activate upload file router
+2024-11-05 16:22:19,481 - global_logger - ERROR - Async session commit failed, rolling back. Error: 'NoneType' object has no attribute 'send'
+2024-11-05 16:22:19,481 - global_logger - INFO - Async session has been closed
+2024-11-05 16:22:19,482 - global_logger - ERROR - In upload_file_route, Failed to save submission 'NoneType' object has no attribute 'send'
+2024-11-05 16:22:19,916 - global_logger - INFO - activate upload file router
+2024-11-05 16:22:19,929 - global_logger - INFO - uploaded file has been received at server side
+2024-11-05 16:22:19,929 - global_logger - INFO - Async session commit succeeded
+2024-11-05 16:22:19,929 - global_logger - INFO - Async session has been closed
+2024-11-05 16:22:19,945 - global_logger - INFO - 4ffa221e3abd5c265f65a07ffac6b66.jpg has been save to src/test\2251653\4ffa221e3abd5c265f65a07ffac6b66.jpg
+2024-11-05 16:22:19,945 - global_logger - INFO - File(s) uploaded successfully.
+2024-11-05 16:22:20,399 - global_logger - INFO - activate upload file router
+2024-11-05 16:22:20,419 - global_logger - ERROR - Async session commit failed, rolling back. Error: 'NoneType' object has no attribute 'send'
+2024-11-05 16:22:20,419 - global_logger - INFO - Async session has been closed
+2024-11-05 16:22:20,419 - global_logger - ERROR - In upload_file_route, Failed to save submission 'NoneType' object has no attribute 'send'
+2024-11-05 16:22:23,670 - global_logger - INFO - activate upload file router
+2024-11-05 16:22:23,686 - global_logger - INFO - uploaded file has been received at server side
+2024-11-05 16:22:23,686 - global_logger - INFO - Async session commit succeeded
+2024-11-05 16:22:23,686 - global_logger - INFO - Async session has been closed
+2024-11-05 16:22:23,690 - global_logger - INFO - 4ffa221e3abd5c265f65a07ffac6b66.jpg has been save to src/test\2251653\4ffa221e3abd5c265f65a07ffac6b66.jpg
+2024-11-05 16:22:23,690 - global_logger - INFO - File(s) uploaded successfully.
+2024-11-05 16:22:25,135 - global_logger - INFO - activate upload file router
+2024-11-05 16:22:25,155 - global_logger - ERROR - Async session commit failed, rolling back. Error: 'NoneType' object has no attribute 'send'
+2024-11-05 16:22:25,155 - global_logger - INFO - Async session has been closed
+2024-11-05 16:22:25,155 - global_logger - ERROR - In upload_file_route, Failed to save submission 'NoneType' object has no attribute 'send'
+2024-11-05 16:22:25,798 - global_logger - INFO - activate upload file router
+2024-11-05 16:22:25,808 - global_logger - INFO - uploaded file has been received at server side
+2024-11-05 16:22:25,809 - global_logger - INFO - Async session commit succeeded
+2024-11-05 16:22:25,809 - global_logger - INFO - Async session has been closed
+2024-11-05 16:22:25,812 - global_logger - INFO - 4ffa221e3abd5c265f65a07ffac6b66.jpg has been save to src/test\2251653\4ffa221e3abd5c265f65a07ffac6b66.jpg
+2024-11-05 16:22:25,812 - global_logger - INFO - File(s) uploaded successfully.
+2024-11-05 16:22:45,705 - global_logger - INFO - activate upload file router
+2024-11-05 16:22:45,730 - global_logger - ERROR - Async session commit failed, rolling back. Error: 'NoneType' object has no attribute 'send'
+2024-11-05 16:22:45,730 - global_logger - INFO - Async session has been closed
+2024-11-05 16:22:45,730 - global_logger - ERROR - In upload_file_route, Failed to save submission 'NoneType' object has no attribute 'send'
+2024-11-05 16:22:47,770 - global_logger - INFO - activate upload file router
+2024-11-05 16:22:47,784 - global_logger - INFO - uploaded file has been received at server side
+2024-11-05 16:22:47,785 - global_logger - INFO - Async session commit succeeded
+2024-11-05 16:22:47,785 - global_logger - INFO - Async session has been closed
+2024-11-05 16:22:47,789 - global_logger - INFO - 4ffa221e3abd5c265f65a07ffac6b66.jpg has been save to src/test\2251653\4ffa221e3abd5c265f65a07ffac6b66.jpg
+2024-11-05 16:22:47,790 - global_logger - INFO - File(s) uploaded successfully.
+2024-11-05 16:22:49,879 - global_logger - INFO - activate upload file router
+2024-11-05 16:22:49,898 - global_logger - ERROR - Async session commit failed, rolling back. Error: 'NoneType' object has no attribute 'send'
+2024-11-05 16:22:49,898 - global_logger - INFO - Async session has been closed
+2024-11-05 16:22:49,898 - global_logger - ERROR - In upload_file_route, Failed to save submission 'NoneType' object has no attribute 'send'
+2024-11-05 16:29:11,852 - global_logger - INFO - activate upload file router
+2024-11-05 16:29:11,875 - global_logger - INFO - uploaded file has been received at server side
+2024-11-05 16:29:11,876 - global_logger - INFO - Async session commit succeeded
+2024-11-05 16:29:11,876 - global_logger - INFO - Async session has been closed
+2024-11-05 16:29:11,908 - global_logger - INFO - 4ffa221e3abd5c265f65a07ffac6b66.jpg has been save to src/test\2251653\4ffa221e3abd5c265f65a07ffac6b66.jpg
+2024-11-05 16:29:11,909 - global_logger - INFO - File(s) uploaded successfully.
+2024-11-05 16:29:23,971 - global_logger - INFO - activate upload file router
+2024-11-05 16:29:24,000 - global_logger - ERROR - Async session commit failed, rolling back. Error: 'NoneType' object has no attribute 'send'
+2024-11-05 16:29:24,000 - global_logger - INFO - Async session has been closed
+2024-11-05 16:29:24,000 - global_logger - ERROR - In upload_file_route, Failed to save submission 'NoneType' object has no attribute 'send'
+2024-11-05 16:31:56,899 - global_logger - INFO - activate upload file router
+2024-11-05 16:31:56,907 - global_logger - INFO - uploaded file has been received at server side
+2024-11-05 16:31:56,907 - global_logger - INFO - Async session commit succeeded
+2024-11-05 16:31:56,907 - global_logger - INFO - Async session has been closed
+2024-11-05 16:31:56,909 - global_logger - INFO - 4ffa221e3abd5c265f65a07ffac6b66.jpg has been save to src/test\2251653\4ffa221e3abd5c265f65a07ffac6b66.jpg
+2024-11-05 16:31:56,909 - global_logger - INFO - File(s) uploaded successfully.
+2024-11-05 16:32:05,105 - global_logger - INFO - activate upload file router
+2024-11-05 16:32:05,126 - global_logger - ERROR - Async session commit failed, rolling back. Error: 'NoneType' object has no attribute 'send'
+2024-11-05 16:32:05,126 - global_logger - INFO - Async session has been closed
+2024-11-05 16:32:05,126 - global_logger - ERROR - In upload_file_route, Failed to save submission 'NoneType' object has no attribute 'send'
+2024-11-05 16:32:25,567 - global_logger - INFO - activate upload file router
+2024-11-05 16:32:25,588 - global_logger - INFO - uploaded file has been received at server side
+2024-11-05 16:32:25,588 - global_logger - INFO - Async session commit succeeded
+2024-11-05 16:32:25,589 - global_logger - INFO - Async session has been closed
+2024-11-05 16:32:25,597 - global_logger - INFO - 4ffa221e3abd5c265f65a07ffac6b66.jpg has been save to src/test\2251653\4ffa221e3abd5c265f65a07ffac6b66.jpg
+2024-11-05 16:32:25,597 - global_logger - INFO - File(s) uploaded successfully.
+2024-11-05 16:34:50,308 - global_logger - INFO - activate upload file router
+2024-11-05 16:34:50,328 - global_logger - INFO - uploaded file has been received at server side
+2024-11-05 16:34:50,328 - global_logger - INFO - Async session commit succeeded
+2024-11-05 16:34:50,328 - global_logger - INFO - Async session has been closed
+2024-11-05 16:34:50,330 - global_logger - INFO - 4ffa221e3abd5c265f65a07ffac6b66.jpg has been save to src/test\2251653\4ffa221e3abd5c265f65a07ffac6b66.jpg
+2024-11-05 16:34:50,330 - global_logger - INFO - File(s) uploaded successfully.
+2024-11-05 16:36:18,028 - global_logger - INFO - activate upload file router
+2024-11-05 16:36:18,031 - global_logger - INFO - uploaded file has been received at server side
+2024-11-05 16:36:18,045 - global_logger - INFO - Async session commit succeeded
+2024-11-05 16:36:18,046 - global_logger - INFO - Async session has been closed
+2024-11-05 16:36:18,048 - global_logger - INFO - 4ffa221e3abd5c265f65a07ffac6b66.jpg has been save to src/test\2251653\4ffa221e3abd5c265f65a07ffac6b66.jpg
+2024-11-05 16:36:18,048 - global_logger - INFO - File(s) uploaded successfully.
+2024-11-05 16:37:21,912 - global_logger - INFO - activate upload file router
+2024-11-05 16:37:21,914 - global_logger - INFO - uploaded file has been received at server side
+2024-11-05 16:37:21,937 - global_logger - ERROR - Async session commit failed, rolling back. Error: 'NoneType' object has no attribute 'send'
+2024-11-05 16:37:21,937 - global_logger - INFO - Async session has been closed
+2024-11-05 16:37:21,937 - global_logger - ERROR - In upload_file_route, Failed to save submission 'NoneType' object has no attribute 'send'
+2024-11-05 16:37:22,722 - global_logger - INFO - activate upload file router
+2024-11-05 16:37:22,724 - global_logger - INFO - uploaded file has been received at server side
+2024-11-05 16:37:22,743 - global_logger - INFO - Async session commit succeeded
+2024-11-05 16:37:22,743 - global_logger - INFO - Async session has been closed
+2024-11-05 16:37:22,747 - global_logger - INFO - 4ffa221e3abd5c265f65a07ffac6b66.jpg has been save to src/test\2251653\4ffa221e3abd5c265f65a07ffac6b66.jpg
+2024-11-05 16:37:22,748 - global_logger - INFO - File(s) uploaded successfully.
+2024-11-05 16:46:28,498 - global_logger - INFO - activate upload file router
+2024-11-05 16:46:28,503 - global_logger - INFO - uploaded file has been received at server side
+2024-11-05 16:46:28,522 - global_logger - INFO - Async session commit succeeded
+2024-11-05 16:46:28,522 - global_logger - INFO - Async session has been closed
+2024-11-05 16:46:28,531 - global_logger - INFO - 4ffa221e3abd5c265f65a07ffac6b66.jpg has been save to src/test\2251653\4ffa221e3abd5c265f65a07ffac6b66.jpg
+2024-11-05 16:46:28,531 - global_logger - INFO - File(s) uploaded successfully.
+2024-11-05 16:46:33,600 - global_logger - INFO - activate upload file router
+2024-11-05 16:46:33,603 - global_logger - INFO - uploaded file has been received at server side
+2024-11-05 16:46:33,629 - global_logger - ERROR - Async session commit failed, rolling back. Error: 'NoneType' object has no attribute 'send'
+2024-11-05 16:46:33,629 - global_logger - INFO - Async session has been closed
+2024-11-05 16:46:33,629 - global_logger - ERROR - In upload_file_route, Failed to save submission 'NoneType' object has no attribute 'send'
+2024-11-05 16:49:41,573 - global_logger - INFO - activate upload file router
+2024-11-05 16:49:41,576 - global_logger - INFO - uploaded file has been received at server side
+2024-11-05 16:49:41,592 - global_logger - INFO - Async session commit succeeded
+2024-11-05 16:49:41,592 - global_logger - INFO - Async session has been closed
+2024-11-05 16:49:41,594 - global_logger - INFO - 4ffa221e3abd5c265f65a07ffac6b66.jpg has been save to src/test\2251653\4ffa221e3abd5c265f65a07ffac6b66.jpg
+2024-11-05 16:49:41,594 - global_logger - INFO - File(s) uploaded successfully.
+2024-11-05 16:49:46,221 - global_logger - INFO - activate upload file router
+2024-11-05 16:49:46,224 - global_logger - INFO - uploaded file has been received at server side
+2024-11-05 16:49:46,250 - global_logger - ERROR - Async session commit failed, rolling back. Error: 'NoneType' object has no attribute 'send'
+2024-11-05 16:49:46,250 - global_logger - INFO - Async session has been closed
+2024-11-05 16:49:46,251 - global_logger - ERROR - In upload_file_route, Failed to save submission 'NoneType' object has no attribute 'send'
+2024-11-05 16:58:49,795 - global_logger - INFO - activate upload file router
+2024-11-05 16:58:49,799 - global_logger - INFO - uploaded file has been received at server side
+2024-11-05 16:58:49,819 - global_logger - INFO - Async session commit succeeded
+2024-11-05 16:58:49,819 - global_logger - INFO - Async session has been closed
+2024-11-05 16:58:49,825 - global_logger - INFO - 4ffa221e3abd5c265f65a07ffac6b66.jpg has been save to src/test\2251653\4ffa221e3abd5c265f65a07ffac6b66.jpg
+2024-11-05 16:58:49,825 - global_logger - INFO - File(s) uploaded successfully.
+2024-11-05 16:58:50,480 - global_logger - INFO - activate upload file router
+2024-11-05 16:58:50,482 - global_logger - INFO - uploaded file has been received at server side
+2024-11-05 16:58:50,522 - global_logger - ERROR - Async session commit failed, rolling back. Error: 'NoneType' object has no attribute 'send'
+2024-11-05 16:58:50,522 - global_logger - INFO - Async session has been closed
+2024-11-05 16:58:50,522 - global_logger - ERROR - In upload_file_route, Failed to save submission 'NoneType' object has no attribute 'send'
+2024-11-05 16:58:59,845 - global_logger - INFO - activate upload file router
+2024-11-05 16:58:59,847 - global_logger - INFO - uploaded file has been received at server side
+2024-11-05 16:58:59,855 - global_logger - INFO - Async session commit succeeded
+2024-11-05 16:58:59,855 - global_logger - INFO - Async session has been closed
+2024-11-05 16:58:59,858 - global_logger - INFO - 4ffa221e3abd5c265f65a07ffac6b66.jpg has been save to src/test\2251653\4ffa221e3abd5c265f65a07ffac6b66.jpg
+2024-11-05 16:58:59,858 - global_logger - INFO - File(s) uploaded successfully.
+2024-11-05 16:59:00,696 - global_logger - INFO - activate upload file router
+2024-11-05 16:59:00,698 - global_logger - INFO - uploaded file has been received at server side
+2024-11-05 16:59:00,711 - global_logger - ERROR - Async session commit failed, rolling back. Error: 'NoneType' object has no attribute 'send'
+2024-11-05 16:59:00,711 - global_logger - INFO - Async session has been closed
+2024-11-05 16:59:00,711 - global_logger - ERROR - In upload_file_route, Failed to save submission 'NoneType' object has no attribute 'send'
+2024-11-05 16:59:01,188 - global_logger - INFO - activate upload file router
+2024-11-05 16:59:01,190 - global_logger - INFO - uploaded file has been received at server side
+2024-11-05 16:59:01,204 - global_logger - INFO - Async session commit succeeded
+2024-11-05 16:59:01,204 - global_logger - INFO - Async session has been closed
+2024-11-05 16:59:01,207 - global_logger - INFO - 4ffa221e3abd5c265f65a07ffac6b66.jpg has been save to src/test\2251653\4ffa221e3abd5c265f65a07ffac6b66.jpg
+2024-11-05 16:59:01,207 - global_logger - INFO - File(s) uploaded successfully.
+2024-11-05 16:59:01,644 - global_logger - INFO - activate upload file router
+2024-11-05 16:59:01,646 - global_logger - INFO - uploaded file has been received at server side
+2024-11-05 16:59:01,661 - global_logger - ERROR - Async session commit failed, rolling back. Error: 'NoneType' object has no attribute 'send'
+2024-11-05 16:59:01,661 - global_logger - INFO - Async session has been closed
+2024-11-05 16:59:01,661 - global_logger - ERROR - In upload_file_route, Failed to save submission 'NoneType' object has no attribute 'send'
+2024-11-05 17:01:41,601 - global_logger - INFO - activate upload file router
+2024-11-05 17:01:41,605 - global_logger - INFO - uploaded file has been received at server side
+2024-11-05 17:01:41,618 - global_logger - INFO - Async session commit succeeded
+2024-11-05 17:01:41,619 - global_logger - INFO - Async session has been closed
+2024-11-05 17:01:41,619 - global_logger - ERROR - in unpload_file_router, error:{e}
+2024-11-05 17:02:03,140 - global_logger - INFO - activate upload file router
+2024-11-05 17:02:03,141 - global_logger - INFO - uploaded file has been received at server side
+2024-11-05 17:02:03,160 - global_logger - ERROR - Async session commit failed, rolling back. Error: 'NoneType' object has no attribute 'send'
+2024-11-05 17:02:03,160 - global_logger - INFO - Async session has been closed
+2024-11-05 17:02:03,160 - global_logger - ERROR - In upload_file_route, Failed to save submission 'NoneType' object has no attribute 'send'
+2024-11-05 17:02:04,348 - global_logger - INFO - activate upload file router
+2024-11-05 17:02:04,350 - global_logger - INFO - uploaded file has been received at server side
+2024-11-05 17:02:04,369 - global_logger - INFO - Async session commit succeeded
+2024-11-05 17:02:04,369 - global_logger - INFO - Async session has been closed
+2024-11-05 17:02:04,370 - global_logger - ERROR - in unpload_file_router, error:{e}
+2024-11-05 17:02:59,674 - global_logger - INFO - activate upload file router
+2024-11-05 17:02:59,677 - global_logger - INFO - uploaded file has been received at server side
+2024-11-05 17:02:59,691 - global_logger - INFO - Async session commit succeeded
+2024-11-05 17:02:59,691 - global_logger - INFO - Async session has been closed
+2024-11-05 17:02:59,691 - global_logger - ERROR - in unpload_file_router, error:{e}
+2024-11-05 17:04:30,100 - global_logger - INFO - activate upload file router
+2024-11-05 17:04:30,106 - global_logger - INFO - uploaded file has been received at server side
+2024-11-05 17:04:30,124 - global_logger - INFO - Async session commit succeeded
+2024-11-05 17:04:30,125 - global_logger - INFO - Async session has been closed
+2024-11-05 17:04:30,134 - global_logger - INFO - 4ffa221e3abd5c265f65a07ffac6b66.jpg has been save to src/test\2251653\4ffa221e3abd5c265f65a07ffac6b66.jpg
+2024-11-05 17:04:30,134 - global_logger - INFO - File(s) uploaded successfully.
+2024-11-05 17:04:46,757 - global_logger - INFO - activate upload file router
+2024-11-05 17:04:46,759 - global_logger - INFO - uploaded file has been received at server side
+2024-11-05 17:04:46,781 - global_logger - ERROR - Async session commit failed, rolling back. Error: 'NoneType' object has no attribute 'send'
+2024-11-05 17:04:46,781 - global_logger - INFO - Async session has been closed
+2024-11-05 17:04:46,781 - global_logger - ERROR - In upload_file_route, Failed to save submission 'NoneType' object has no attribute 'send'
+2024-11-05 17:04:51,248 - global_logger - INFO - activate upload file router
+2024-11-05 17:04:51,250 - global_logger - INFO - uploaded file has been received at server side
+2024-11-05 17:04:51,257 - global_logger - INFO - Async session commit succeeded
+2024-11-05 17:04:51,257 - global_logger - INFO - Async session has been closed
+2024-11-05 17:04:51,261 - global_logger - INFO - 51b625aa9113951795eb209eb391513.jpg has been save to src/test\2251653\51b625aa9113951795eb209eb391513.jpg
+2024-11-05 17:04:51,261 - global_logger - INFO - File(s) uploaded successfully.
+2024-11-05 17:04:54,653 - global_logger - INFO - activate upload file router
+2024-11-05 17:04:54,659 - global_logger - INFO - uploaded file has been received at server side
+2024-11-05 17:04:54,682 - global_logger - ERROR - Async session commit failed, rolling back. Error: 'NoneType' object has no attribute 'send'
+2024-11-05 17:04:54,682 - global_logger - INFO - Async session has been closed
+2024-11-05 17:04:54,682 - global_logger - ERROR - In upload_file_route, Failed to save submission 'NoneType' object has no attribute 'send'
+2024-11-05 17:04:58,742 - global_logger - INFO - activate upload file router
+2024-11-05 17:04:58,744 - global_logger - INFO - uploaded file has been received at server side
+2024-11-05 17:04:58,755 - global_logger - INFO - Async session commit succeeded
+2024-11-05 17:04:58,755 - global_logger - INFO - Async session has been closed
+2024-11-05 17:04:58,758 - global_logger - INFO - 4ffa221e3abd5c265f65a07ffac6b66.jpg has been save to src/test\2251653\4ffa221e3abd5c265f65a07ffac6b66.jpg
+2024-11-05 17:04:58,758 - global_logger - INFO - File(s) uploaded successfully.
+2024-11-05 17:06:27,714 - global_logger - INFO - activate upload file router
+2024-11-05 17:06:27,717 - global_logger - INFO - uploaded file has been received at server side
+2024-11-05 17:06:27,731 - global_logger - INFO - Async session commit succeeded
+2024-11-05 17:06:27,732 - global_logger - INFO - Async session has been closed
+2024-11-05 17:06:27,732 - global_logger - ERROR - in unpload_file_router, error:{e}
+2024-11-05 17:08:29,427 - global_logger - INFO - activate upload file router
+2024-11-05 17:08:29,433 - global_logger - INFO - uploaded file has been received at server side
+2024-11-05 17:08:29,450 - global_logger - INFO - Async session commit succeeded
+2024-11-05 17:08:29,450 - global_logger - INFO - Async session has been closed
+2024-11-05 17:08:29,453 - global_logger - INFO - 4ffa221e3abd5c265f65a07ffac6b66.jpg has been save to src/test\2251653\4ffa221e3abd5c265f65a07ffac6b66.jpg
+2024-11-05 17:08:29,453 - global_logger - INFO - File(s) uploaded successfully.
+2024-11-05 17:08:41,561 - global_logger - INFO - activate upload file router
+2024-11-05 17:08:41,563 - global_logger - INFO - uploaded file has been received at server side
+2024-11-05 17:08:41,564 - global_logger - ERROR - Async session commit failed, rolling back. Error: 'NoneType' object has no attribute 'send'
+2024-11-05 17:08:41,586 - global_logger - INFO - Async session has been closed
+2024-11-05 17:08:41,586 - global_logger - ERROR - In upload_file_route, Failed to save submission 'NoneType' object has no attribute 'send'
+2024-11-05 17:08:46,930 - global_logger - INFO - activate upload file router
+2024-11-05 17:08:46,932 - global_logger - INFO - uploaded file has been received at server side
+2024-11-05 17:08:46,941 - global_logger - INFO - Async session commit succeeded
+2024-11-05 17:08:46,942 - global_logger - INFO - Async session has been closed
+2024-11-05 17:08:46,943 - global_logger - INFO - 4ffa221e3abd5c265f65a07ffac6b66.jpg has been save to src/test\2251653\4ffa221e3abd5c265f65a07ffac6b66.jpg
+2024-11-05 17:08:46,944 - global_logger - INFO - File(s) uploaded successfully.
+2024-11-05 17:09:24,859 - global_logger - INFO - activate upload file router
+2024-11-05 17:09:24,862 - global_logger - INFO - uploaded file has been received at server side
+2024-11-05 17:09:24,862 - global_logger - INFO - Async session commit succeeded
+2024-11-05 17:09:24,862 - global_logger - INFO - Async session has been closed
+2024-11-05 17:09:24,865 - global_logger - INFO - 4ffa221e3abd5c265f65a07ffac6b66.jpg has been save to src/test\2251653\4ffa221e3abd5c265f65a07ffac6b66.jpg
+2024-11-05 17:09:24,865 - global_logger - INFO - File(s) uploaded successfully.
+2024-11-05 17:09:25,938 - global_logger - INFO - activate upload file router
+2024-11-05 17:09:25,939 - global_logger - INFO - uploaded file has been received at server side
+2024-11-05 17:09:25,939 - global_logger - INFO - Async session commit succeeded
+2024-11-05 17:09:25,940 - global_logger - INFO - Async session has been closed
+2024-11-05 17:09:25,943 - global_logger - INFO - 4ffa221e3abd5c265f65a07ffac6b66.jpg has been save to src/test\2251653\4ffa221e3abd5c265f65a07ffac6b66.jpg
+2024-11-05 17:09:25,943 - global_logger - INFO - File(s) uploaded successfully.
+2024-11-05 17:09:34,299 - global_logger - INFO - activate upload file router
+2024-11-05 17:09:34,300 - global_logger - INFO - uploaded file has been received at server side
+2024-11-05 17:09:34,300 - global_logger - INFO - Async session commit succeeded
+2024-11-05 17:09:34,301 - global_logger - INFO - Async session has been closed
+2024-11-05 17:09:34,303 - global_logger - INFO - 4ffa221e3abd5c265f65a07ffac6b66.jpg has been save to src/test\2251653\4ffa221e3abd5c265f65a07ffac6b66.jpg
+2024-11-05 17:09:34,304 - global_logger - INFO - File(s) uploaded successfully.
+2024-11-05 17:14:02,089 - global_logger - INFO - activate upload file router
+2024-11-05 17:14:02,094 - global_logger - INFO - uploaded file has been received at server side
+2024-11-05 17:14:02,115 - global_logger - INFO - Async session commit succeeded
+2024-11-05 17:14:02,117 - global_logger - INFO - 4ffa221e3abd5c265f65a07ffac6b66.jpg has been save to src/test\2251653\4ffa221e3abd5c265f65a07ffac6b66.jpg
+2024-11-05 17:14:02,117 - global_logger - INFO - File(s) uploaded successfully.
+2024-11-05 17:14:02,986 - global_logger - INFO - activate upload file router
+2024-11-05 17:14:02,988 - global_logger - INFO - uploaded file has been received at server side
+2024-11-05 17:14:03,028 - global_logger - ERROR - Async session commit failed, rolling back. Error: 'NoneType' object has no attribute 'send'
+2024-11-05 17:14:03,028 - global_logger - ERROR - In upload_file_route, Failed to save submission 'NoneType' object has no attribute 'send'
+2024-11-05 17:14:03,779 - global_logger - INFO - activate upload file router
+2024-11-05 17:14:03,781 - global_logger - INFO - uploaded file has been received at server side
+2024-11-05 17:14:03,799 - global_logger - INFO - Async session commit succeeded
+2024-11-05 17:14:03,801 - global_logger - INFO - 4ffa221e3abd5c265f65a07ffac6b66.jpg has been save to src/test\2251653\4ffa221e3abd5c265f65a07ffac6b66.jpg
+2024-11-05 17:14:03,801 - global_logger - INFO - File(s) uploaded successfully.
+2024-11-05 17:37:34,058 - global_logger - INFO - activate upload file router
+2024-11-05 17:37:34,063 - global_logger - INFO - uploaded file has been received at server side
+2024-11-05 17:37:34,115 - global_logger - INFO - Async session commit succeeded
+2024-11-05 17:37:34,130 - global_logger - INFO - 4ffa221e3abd5c265f65a07ffac6b66.jpg has been save to src/test\2251653\4ffa221e3abd5c265f65a07ffac6b66.jpg
+2024-11-05 17:37:34,131 - global_logger - INFO - File(s) uploaded successfully.
+2024-11-05 17:37:44,440 - global_logger - INFO - activate upload file router
+2024-11-05 17:37:44,442 - global_logger - INFO - uploaded file has been received at server side
+2024-11-05 17:37:44,466 - global_logger - ERROR - Async session commit failed, rolling back. Error: 'NoneType' object has no attribute 'send'
+2024-11-05 17:37:44,466 - global_logger - ERROR - In upload_file_route, Failed to save submission 'NoneType' object has no attribute 'send'

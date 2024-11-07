@@ -24,7 +24,7 @@ class db_connection:
         while attempt < self.connect_attempt + 1 :
             try:
                 self.db_connector = mysql.connector.connect(**config)
-                logger.info("successfully connect to "+{self.host}+":"+{self.database})
+                logger.info("successfully connect to " + config['host'] + ":" + config['database'])
                 return self.db_connector
             except (mysql.connector.Error, IOError) as err:
                 if (self.connect_attempt is attempt):
@@ -50,8 +50,9 @@ class db_connection:
             logger.warning("can not disconnect from db")
             return False
 
-# if __name__ == "__main__" :
-#     conn_1 = db_connection(connect_attempt=3, connect_delay=2)
-#     conn_2 = db_connection(connect_attempt=3, connect_delay=2)
-#     assert conn_2 is conn_1
-#     conn_2.connect_to_db()
+# 测试通过
+if __name__ == "__main__" :
+    conn_1 = db_connection(connect_attempt=3, connect_delay=2)
+    conn_2 = db_connection(connect_attempt=3, connect_delay=2)
+    assert conn_2 is conn_1
+    conn_2.connect_to_db()

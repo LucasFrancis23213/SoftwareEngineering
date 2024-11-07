@@ -13,6 +13,12 @@ CREATE TABLE Student (
     FOREIGN KEY (studentID) REFERENCES Identity(userID)
 );
 
+CREATE TABLE Course (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    courseName VARCHAR(100) NOT NULL,
+    courseID VARCHAR(10) NOT NULL UNIQUE
+);
+
 CREATE TABLE Teacher (
     teacherName VARCHAR(100) NOT NULL,
     teacherID VARCHAR(7) NOT NULL PRIMARY KEY,
@@ -23,11 +29,7 @@ CREATE TABLE Teacher (
     FOREIGN KEY (classID) REFERENCES Course(courseID)  -- 这里假设 Course 表已经存在
 );
 
-CREATE TABLE Course (
-    id INT AUTO_INCREMENT PRIMARY KEY,
-    courseName VARCHAR(100) NOT NULL,
-    courseID VARCHAR(10) NOT NULL UNIQUE
-);
+
 
 CREATE TABLE Login (
     userName VARCHAR(100) NOT NULL,

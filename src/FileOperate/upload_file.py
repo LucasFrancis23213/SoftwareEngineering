@@ -2,6 +2,7 @@ import os
 from werkzeug.utils import secure_filename
 from werkzeug.datastructures import FileStorage
 from logger import logger
+from flask_cors import CORS
 
 # specify the root folder of storing file
 UPLOAD_FOLDER = 'src/test'

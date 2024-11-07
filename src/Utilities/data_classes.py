@@ -14,10 +14,11 @@ class Identity(Base):
 
 class Student(Base):
     __tablename__ = "student"
-    
+
+    id = Column(Integer, primary_key=True, autoincrement=True)  # 添加主键
     studentName = Column(String(100), ForeignKey("identity.userName"), nullable=False)
     studentID = Column(String(7), ForeignKey("identity.userID"), nullable=False)
-    email = Column(String, ForeignKey("identity.email"), nullable = False) # 没加到database
+    # email = Column(String, ForeignKey("identity.email"), nullable = False) # 没加到database
     
 class Teacher(Base):
     __tablename__ = "teacher"

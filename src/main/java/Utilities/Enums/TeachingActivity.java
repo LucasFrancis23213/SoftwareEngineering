@@ -1,0 +1,12 @@
+package Utilities.Enums;
+
+public enum TeachingActivity {
+    SETUP_COURSE,
+    PUBLISH_PROJECT,
+    PARTICIPATE_PROJECT,
+    UPLOAD_ASSIGNMENT,
+    DOWNLOAD_ASSIGNMENT,
+    GRADE_ASSIGNMENT,
+    MANAGE_GRADE,
+    CLOSE_COURSE
+}

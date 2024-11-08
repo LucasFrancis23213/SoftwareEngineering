@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+
+    <!-- 定义GlobalLogger的日志文件配置 -->
+    <appender name="GlobalFile" class="ch.qos.logback.core.FileAppender">
+        <file>logs/GlobalLogger.log</file>
+        <encoder>
+            <pattern>%d{yyyy-MM-dd HH:mm:ss} [%thread] %-5level %logger{36} - %msg%n</pattern>
+        </encoder>
+    </appender>
+
+    <!-- 定义AdditionalLogger的日志文件配置 -->
+    <appender name="ServiceLogger" class="ch.qos.logback.core.FileAppender">
+        <file>logs/ServiceLogger.log</file>
+        <encoder>
+            <pattern>%d{yyyy-MM-dd HH:mm:ss} [%thread] %-5level %logger{36} - %msg%n</pattern>
+        </encoder>
+    </appender>
+
+    <!-- 定义AdditionalLogger的日志文件配置 -->
+    <appender name="DatabaseLogger" class="ch.qos.logback.core.FileAppender">
+        <file>logs/DatabaseLogger.log</file>
+        <encoder>
+            <pattern>%d{yyyy-MM-dd HH:mm:ss} [%thread] %-5level %logger{36} - %msg%n</pattern>
+        </encoder>
+    </appender>
+
+    <appender name="ControllerLogger" class="ch.qos.logback.core.FileAppender">
+        <file>logs/ControllerLogger.log</file>
+        <encoder>
+            <pattern>%d{yyyy-MM-dd HH:mm:ss} [%thread] %-5level %logger{36} - %msg%n</pattern>
+        </encoder>
+    </appender>
+
+    <!-- 设置日志级别和输出目标 -->
+
+    <logger name="DatabaseLogger" level="INFO" additivity="false">
+        <appender-ref ref="DatabaseLogger"/>
+    </logger>
+
+    <logger name="ServiceLogger" level="INFO" additivity="false">
+        <appender-ref ref="ServiceLogger"/>
+    </logger>
+
+    <logger name="GlobalLogger" level="DEBUG" additivity="false">
+        <appender-ref ref="GlobalFile"/>
+    </logger>
+
+    <logger name="ControllerLogger" level="INFO" additivity="false">
+        <appender-ref ref="ControllerLogger"/>
+    </logger>
+
+    <!-- 设置Root Logger -->
+    <root level="DEBUG">
+        <appender-ref ref="GlobalFile"/>
+    </root>
+
+</configuration>
